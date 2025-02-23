@@ -63,7 +63,7 @@
       "name": "[parameters('eventHubNamespaceName')]",
       "location": "[resourceGroup().location]",
       "sku": {
-        "name": "Standard"
+        "name": "Basic"
       },
       "properties": {
         "isAutoInflateEnabled": "true",
@@ -119,8 +119,8 @@
           "name": "[parameters('sqlServerDatabaseName')]",
           "location": "[resourceGroup().location]",
           "sku": {
-            "name": "DW100c",
-            "tier": "DataWarehouse"
+            "name": "Basic",
+            "tier": "Basic"
           },
           "properties": {
             "collation": "SQL_Latin1_General_CP1_CI_AS"
