@@ -66,8 +66,7 @@
         "name": "Basic"
       },
       "properties": {
-        "isAutoInflateEnabled": "true",
-        "maximumThroughputUnits": "7"
+        "isAutoInflateEnabled": "false",
       },
       "dependsOn": [
         "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageName'))]"
